@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="dc01ced6-f233-477a-87a0-3e76f1954cfb" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,11 +14,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/requirements.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="webservice.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/webservice.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="44" selection-start-line="44" selection-end-line="44" />
+            <state relative-caret-position="783">
+              <caret line="59" column="25" lean-forward="true" selection-start-line="59" selection-start-column="25" selection-end-line="59" selection-end-column="25" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -40,9 +50,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/apikey.json" />
         <option value="$PROJECT_DIR$/webservice.py" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
       </list>
     </option>
   </component>
@@ -64,6 +74,11 @@
             <path>
               <item name="api-gcv" type="b2602c69:ProjectViewProjectNode" />
               <item name="api-gcv" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="api-gcv" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api-gcv" type="462c0819:PsiDirectoryNode" />
+              <item name="imagens" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -140,10 +155,10 @@
       <window_info anchor="bottom" id="DB Execution Console" order="7" />
       <window_info anchor="bottom" id="Regex Tester" order="7" weight="0.32991454" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.35784313" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35784313" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32843137" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3120915" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3120915" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16334356" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39869282" />
@@ -161,6 +176,23 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webservice.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -192,13 +224,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/output.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="38" lean-forward="true" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/output.txt" />
     <entry file="file://$PROJECT_DIR$/apikey.json">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -223,13 +249,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/output.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="33" selection-end-line="1958" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/output.txt" />
     <entry file="file://$PROJECT_DIR$/apikey.json">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -299,16 +319,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/output.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imageToSave.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/output.txt" />
     <entry file="file:///usr/lib/python2.7/socket.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="87">
@@ -318,15 +329,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        <state relative-caret-position="180">
+          <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webservice.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        <state relative-caret-position="783">
+          <caret line="59" column="25" lean-forward="true" selection-start-line="59" selection-start-column="25" selection-end-line="59" selection-end-column="25" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>

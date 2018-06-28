@@ -59,11 +59,12 @@ def recuperarRetornoApi(labels):
 
 @app.route("/retornoApiGoogleVision", methods=['POST'])
 def index():
-    imagem = prepararImagemParaSalvar()
-
-    idArquivo = salvarImagem(imagem)
-
-    labels = enviarApiGCV(idArquivo)
+    # imagem = prepararImagemParaSalvar()
+    #
+    # idArquivo = salvarImagem(imagem)
+    #
+    # labels = enviarApiGCV(idArquivo)
+    labels= "qwertyuiop"
 
     return jsonify(labels)
 
