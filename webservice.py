@@ -1,5 +1,4 @@
 from flask import Flask, jsonify, request
-import base64
 import random
 
 import io
@@ -7,12 +6,8 @@ import os
 
 from google.cloud import vision
 from google.cloud.vision import types
-from google.protobuf.json_format import MessageToJson
 
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "apikey.json"
-# print("--------------------",os.environ["GOOGLE_APPLICATION_CREDENTIALS"] )
-# Imports the Google Cloud client library
-
 
 app = Flask(__name__)
 
@@ -42,13 +37,11 @@ def enviarApiGCV(idArquivo):
         os.path.dirname(__file__),
         './imagens/' + idArquivo + '.png')
 
-    # Loads the image into memory
     with io.open(file_name, 'rb') as image_file:
         content = image_file.read()
 
     image = types.Image(content=content)
 
-    # Performs label detection on the image file
     response = client.label_detection(image=image)
     labels = response.label_annotations
 
