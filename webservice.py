@@ -23,6 +23,7 @@ def salvarImagem(imgBase64):
 
     hash = random.getrandbits(128)
     nomeArquivo = str(hash)
+    imgBase64 = str(imgBase64)
     print("----------------", type(imgBase64))
     # In Python 2.7
     fh = open("./imagens/" + nomeArquivo + ".png", "wb")
