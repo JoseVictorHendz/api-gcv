@@ -4,6 +4,8 @@ import random
 import io
 import os
 
+from base64 import decodestring
+
 from google.cloud import vision
 from google.cloud.vision import types
 
@@ -23,11 +25,16 @@ def salvarImagem(imgBase64):
 
     hash = random.getrandbits(128)
     nomeArquivo = str(hash)
+
     print("----------------", type(imgBase64))
-    # In Python 2.7
-    fh = open("./imagens/" + nomeArquivo + ".png", "wb")
-    fh.write(imgBase64.decode('base64'))
-    fh.close()
+    # # In Python 2.7
+    # fh = open("./imagens/" + nomeArquivo + ".png", "wb")
+    # fh.write(imgBase64.decode('base64'))
+    # fh.close()
+
+    with open("./imagens/" + nomeArquivo + ".png", "wb") as f:
+        f.write(decodestring(imgBase64))
+
     return nomeArquivo
 
 def enviarApiGCV(idArquivo):
