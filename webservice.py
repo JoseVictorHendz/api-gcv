@@ -65,8 +65,6 @@ def index():
 
     labels = enviarApiGCV(idArquivo)
 
-    print jsonify(labels)
-
     return jsonify(labels)
 
 if __name__ == '__main__':
