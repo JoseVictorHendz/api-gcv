@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc01ced6-f233-477a-87a0-3e76f1954cfb" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/imagens/nome.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagens/220566629663965095291782264436106026697.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagens/306324027910853141314657105338099878966.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagens/316103821364967400476134642280931819314.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagens/86690227525467110536181639232692737972.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/webservice.py" beforeDir="false" afterPath="$PROJECT_DIR$/webservice.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,11 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="webservice.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="webservice.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/webservice.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="738">
-              <caret line="41" selection-start-line="41" selection-end-line="41" />
+            <state relative-caret-position="252">
+              <caret line="32" column="23" lean-forward="true" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -26,7 +31,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="apikey.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="apikey.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apikey.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
@@ -71,6 +76,7 @@
         <option value="$PROJECT_DIR$/apikey.json" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/imagens/220566629663965095291782264436106026697.txt" />
         <option value="$PROJECT_DIR$/webservice.py" />
       </list>
     </option>
@@ -93,6 +99,11 @@
             <path>
               <item name="api-gcv" type="b2602c69:ProjectViewProjectNode" />
               <item name="api-gcv" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="api-gcv" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api-gcv" type="462c0819:PsiDirectoryNode" />
+              <item name="imagens" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -169,11 +180,11 @@
       <window_info anchor="bottom" id="DB Execution Console" order="7" />
       <window_info anchor="bottom" id="Regex Tester" order="7" weight="0.32991454" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.17264958" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.17264958" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32843137" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32649574" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16334356" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32649574" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.42101228" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3982906" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -358,20 +369,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webservice.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="738">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apikey.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imagens/220566629663965095291782264436106026697.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imagens/nome.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webservice.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="32" column="23" lean-forward="true" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -27,6 +27,11 @@ def salvarImagem(imgBase64):
     fh = open("./imagens/" + nomeArquivo + ".txt", "wb")
     fh.write(imgBase64.decode('base64'))
     fh.close()
+
+    with open('nomes.txt', 'a') as arq:
+        arq.write('jose')
+        arq.write('\n')
+
     return nomeArquivo
 
 def enviarApiGCV(idArquivo):
