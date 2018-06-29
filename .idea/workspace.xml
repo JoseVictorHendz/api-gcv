@@ -2,12 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc01ced6-f233-477a-87a0-3e76f1954cfb" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/imagens/nome.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagens/220566629663965095291782264436106026697.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagens/306324027910853141314657105338099878966.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagens/316103821364967400476134642280931819314.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagens/86690227525467110536181639232692737972.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/webservice.py" beforeDir="false" afterPath="$PROJECT_DIR$/webservice.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,8 +16,8 @@
       <file leaf-file-name="webservice.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/webservice.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="32" column="23" lean-forward="true" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
+            <state relative-caret-position="153">
+              <caret line="66" selection-start-line="66" selection-end-line="66" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -82,10 +76,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="39" />
-    <option name="y" value="25" />
-    <option name="width" value="1327" />
-    <option name="height" value="743" />
+    <option name="x" value="1405" />
+    <option name="y" value="-2" />
+    <option name="width" value="1321" />
+    <option name="height" value="770" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -99,11 +93,6 @@
             <path>
               <item name="api-gcv" type="b2602c69:ProjectViewProjectNode" />
               <item name="api-gcv" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="api-gcv" type="b2602c69:ProjectViewProjectNode" />
-              <item name="api-gcv" type="462c0819:PsiDirectoryNode" />
-              <item name="imagens" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -172,7 +161,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="39" y="25" width="1327" height="743" extended-state="6" />
+    <frame x="1405" y="-2" width="1321" height="770" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -183,8 +172,8 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.17264958" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32843137" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32649574" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.42101228" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3120915" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17950693" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3982906" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -384,8 +373,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/webservice.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="32" column="23" lean-forward="true" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
+        <state relative-caret-position="153">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>

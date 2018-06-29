@@ -23,15 +23,11 @@ def salvarImagem(imgBase64):
 
     hash = random.getrandbits(128)
     nomeArquivo = str(hash)
+    print("----------------", type(imgBase64))
     # In Python 2.7
-    fh = open("./imagens/" + nomeArquivo + ".txt", "wb")
+    fh = open("./imagens/" + nomeArquivo + ".png", "wb")
     fh.write(imgBase64.decode('base64'))
     fh.close()
-
-    with open('nomes.txt', 'a') as arq:
-        arq.write('jose')
-        arq.write('\n')
-
     return nomeArquivo
 
 def enviarApiGCV(idArquivo):
@@ -39,7 +35,7 @@ def enviarApiGCV(idArquivo):
 
     file_name = os.path.join(
         os.path.dirname(__file__),
-        './imagens/' + idArquivo + '.txt')
+        './imagens/' + idArquivo + '.png')
 
     with io.open(file_name, 'rb') as image_file:
         content = image_file.read()
