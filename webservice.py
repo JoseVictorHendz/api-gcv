@@ -23,10 +23,8 @@ def salvarImagem(imgBase64):
 
     hash = random.getrandbits(128)
     nomeArquivo = str(hash)
-    # imgBase64 = str(imgBase64)
-    print("----------------", type(imgBase64))
     # In Python 2.7
-    fh = open("./imagens/" + nomeArquivo + ".png", "wb")
+    fh = open("./imagens/" + nomeArquivo + ".txt", "wb")
     fh.write(imgBase64.decode('base64'))
     fh.close()
     return nomeArquivo
@@ -36,7 +34,7 @@ def enviarApiGCV(idArquivo):
 
     file_name = os.path.join(
         os.path.dirname(__file__),
-        './imagens/' + idArquivo + '.png')
+        './imagens/' + idArquivo + '.txt')
 
     with io.open(file_name, 'rb') as image_file:
         content = image_file.read()
@@ -65,7 +63,7 @@ def index():
     idArquivo = salvarImagem(imagem)
 
     labels = enviarApiGCV(idArquivo)
-    print("---------------",labels)
+
     return jsonify(labels)
 
 if __name__ == '__main__':
