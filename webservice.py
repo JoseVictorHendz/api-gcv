@@ -25,9 +25,9 @@ def salvarImagem(imgBase64):
     nomeArquivo = str(hash)
     print("----------------", type(imgBase64))
     # In Python 2.7
-    # fh = open("./imagens/" + nomeArquivo + ".png", "wb")
-    # fh.write(imgBase64.decode('base64'))
-    # fh.close()
+    fh = open("./imagens/" + nomeArquivo + ".png", "wb")
+    fh.write(imgBase64.decode('base64'))
+    fh.close()
     return nomeArquivo
 
 def enviarApiGCV(idArquivo):
@@ -64,6 +64,8 @@ def index():
     idArquivo = salvarImagem(imagem)
 
     labels = enviarApiGCV(idArquivo)
+
+    print jsonify(labels)
 
     return jsonify(labels)
 
