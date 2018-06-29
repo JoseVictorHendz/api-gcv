@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dc01ced6-f233-477a-87a0-3e76f1954cfb" name="Default" comment="" />
+    <list default="true" id="dc01ced6-f233-477a-87a0-3e76f1954cfb" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,8 +16,8 @@
       <file leaf-file-name="webservice.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/webservice.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="34" column="42" lean-forward="true" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
+            <state relative-caret-position="180">
+              <caret line="30" column="14" lean-forward="true" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -73,10 +75,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-57" />
-    <option name="y" value="196" />
-    <option name="width" value="1317" />
-    <option name="height" value="555" />
+    <option name="x" value="39" />
+    <option name="y" value="25" />
+    <option name="width" value="1327" />
+    <option name="height" value="743" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -90,11 +92,6 @@
             <path>
               <item name="api-gcv" type="b2602c69:ProjectViewProjectNode" />
               <item name="api-gcv" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="api-gcv" type="b2602c69:ProjectViewProjectNode" />
-              <item name="api-gcv" type="462c0819:PsiDirectoryNode" />
-              <item name="imagens" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -171,10 +168,10 @@
       <window_info anchor="bottom" id="DB Execution Console" order="7" />
       <window_info anchor="bottom" id="Regex Tester" order="7" weight="0.32991454" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.35726497" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35726497" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32843137" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32649574" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32649574" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16334356" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3982906" />
@@ -369,8 +366,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/webservice.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="34" column="42" lean-forward="true" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
+        <state relative-caret-position="180">
+          <caret line="30" column="14" lean-forward="true" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>

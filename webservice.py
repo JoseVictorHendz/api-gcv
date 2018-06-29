@@ -65,7 +65,7 @@ def index():
     idArquivo = salvarImagem(imagem)
 
     labels = enviarApiGCV(idArquivo)
-
+    print("---------------",labels)
     return jsonify(labels)
 
 if __name__ == '__main__':
