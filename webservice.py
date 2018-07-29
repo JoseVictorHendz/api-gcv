@@ -32,10 +32,7 @@ def salvarImagem(imgBase64):
     # fh.write(imgBase64.decode('base64'))
     # fh.close()
 
-    /*with open("./imagens/" + nomeArquivo + ".png", "wb") as f:
-        f.write(decodestring(imgBase64))/*
-     
-      with open("./imagens/" + 139722117134787124451076333542647328015 + ".png", "wb") as f:
+    with open("./imagens/" + nomeArquivo + ".png", "wb") as f:
         f.write(decodestring(imgBase64))
    
     return nomeArquivo
